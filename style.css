@@ -71,7 +71,10 @@ body {
   -ms-flex: 70%; /* IE10 */
   flex: 70%;
   background-color: white;
-  padding: 90px;
+  padding-top: 30px;
+  padding-right: 90px;
+  padding-bottom: 50px;
+  padding-left: 90px;
 }
 
 /* Fake image, just for this example */
