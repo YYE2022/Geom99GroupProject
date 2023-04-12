@@ -90,6 +90,8 @@ body {
   margin-right: auto;
   width: 50%;
   border: black;
+  border-style: solid;
+  border-width: 2px;
 }
 
 /* Footer */
