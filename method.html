@@ -50,7 +50,7 @@
   <p>Using the Javascript API key from an ArcGIS Developers account, A solution was contructed that zoomed in on the watercourses location. Javscript was coded to enable popups on stations that contained
     water quality data on Chlorides, Nitrates and Phosphates, and have these stations point at the rivers in the watercourse where the reading was taken. 
     Through research, the threshold of dangerous levels of these macronutrients was determined, levels which would contribute to algae blooms and unhealthy water quality. The Javascript that was coded also enabled
-    queries on the web app, which would allow the user to highlight watercourses that contained dangerous levels of these macronutrients by choosing through a drop down menu. This code was enabled by the Esri Leaflet plugin
+    queries on the web app, which would allow the user to click on the stations that contained dangerous readings of these macronutrients after choosing through a drop down menu. This code was enabled by the Esri Leaflet plugin.
   </p>
 </div>
 
@@ -59,6 +59,16 @@
 <img src=LeafletScript.jpg alt="Script" class="center">
 
 <br>
+
+<div class="main">
+  <h2>Issues with the Solution</h2>
+  <p>There were some attempts to improve the solution, primarily to highlight the watercourses themselves and have them be color coded based on the information from the water stations. However, there weren't enough attributes between water stations in enough locations (tied to the watercourse)
+    that can enable a consistent symbology within the watercourse. More improvements can be made upon this solution such as imrpoving the topological rules of the watercourse feature layer, and havethe popups from the station contain more information for specific use cases (rather then just
+    for algae bloom monitoring)
+  </p>
+</div>
+
+<hr>
 
 <div class="footer">
   <p>© Web 6 Group Project 2023 | Fleming College </p>
