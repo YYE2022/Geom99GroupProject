@@ -125,3 +125,8 @@ body {
     width: 100%;
   }
 }
+
+/* List */
+ul {
+  list-style-type: none;
+}
