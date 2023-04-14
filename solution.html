@@ -46,8 +46,8 @@
   <h3>The following image shows a web solution using Esri OpenLayers Plugin to display the water stations and necessary information on the map. </h3>
 </div>
   <img src=yye_ol.jpg alt="openlayer" class="center1" >
-  <p>The result can be found <a href="https://yye2022.github.io/geom99lab4/openlayerdemo.html">here</a> on github. </p>
 <div class="main">
+  <p>The result can be found <a href="https://yye2022.github.io/geom99lab4/openlayerdemo.html">here</a> on github. </p>
   <h3>Issues with the Solution</h3>
   <p>While attempting to add watercourse features to the map, there was an issue with the watercourse not appearing correctly. The map did not display any watercourse features until a query was performed. Several solutions were tried before the watercourses finally appeared when the query "WHERE Shape_Length > 4000" was used. However, it was observed that the watercourse features that appeared with "Shape_Length > 4000" were different from those with "Shape_Length > 10000". Although the "Shape_Length > 4000" query displayed more watercourses than the "Shape_Length > 10000" query, some watercourses that appeared with "Shape_Length > 10000" were not displayed with "Shape_Length > 4000".</p>
 </div>
@@ -68,11 +68,11 @@
   <p>The animation below shows how the indicators change depending on the map extent:</p>
 
 
-  <img src="dashboard-1.gif" alt="Dashboard indicators" class="large-img" width="800" height="418">
+  <img src="dashboard-1.gif" alt="Dashboard indicators" class="large-img" >
 
   <p>The animation below shows how the water monitoring stations are being filtered based on the concentration of a particular chemical. In this case, chloride:</p>
 
-  <img src="dashboard-2.gif" alt="Dashboard selectors" class="large-img" width="800" height="418">
+  <img src="dashboard-2.gif" alt="Dashboard selectors" class="large-img" >
   <h3>Next Steps</h3>
   <p>One future possibility for this solution would be to edit the PWQMN feature class to include a field that categorizes the chemical concentrations at each respective monitoring station as High, Medium, and Low so that a Category Selector can be added to the Dashboard. This would allow the user to more easily filter the stations, especially if the user does not have an environmental background.</p>
 </div>
