@@ -90,7 +90,7 @@
 
 <div class="main">
   <h2>ArcGIS Experience Builder</h2>
-  <p>Esri’s ArcGIS Experience Builder is a configurable technology that is used for building web apps without needing to write code. There are several templates available, 
+  <p>Esri’s ArcGIS Experience Builder is a configurable solution that gives an organization the ability to build a web app without writing code. There are several templates available, 
     each with their own unique use cases. For this project, the team used the Chart Viewer template to better visualize the water quality monitoring data. This solution requires
      no coding experience, and is suitable for an organization that has access to ArcGIS Online and its technologies.
   </p>
@@ -102,18 +102,21 @@
   <li>1.	Select a map.</li>
   <li>2.	Select the “Stack” layout with a medium panel size.</li>
   <li>3.	Add a cover page and header.</li>
-  <li>4.	Select “map selection”, “layer list”, and “search”.</li>
+  <li>4.	Select the interactivity options of interest.</li>
   <li>5.	Adjust the theme and layout.</li>
   <li>6.	Publish the web app and share it with your organization and/or group.</li>
   </ul>
   
   <img src=experience-builder-steps.jpg alt="Experience Builder steps" class="large-img" width="800px">
 
+  <p>The results:</p>
+
+  <img src=experience-builder.jpg alt="Experience Builder results" class="large-img" width="800px">
 
   <h3>The Pros</h3>
   <p>Experience Builder is a great tool that can be used to visualize several statistics at once. The user can get a quick sense of the quantities of chemicals across the area. </p>
   <h3>The Cons</h3>
-  <p>The app does not give the viewer any information regarding the safety of the water. A dropdown menu or a Dashboards indicator displaying low, medium, and high chemical concentrations may give the viewer a better sense of the safety of the water. It also does not give the user the ability 
+  <p>The app does not give the viewer any information regarding the safety of the water. A dropdown menu or a Dashboards indicator displaying low, medium, and high chemical concentrations may give the viewer a better understanding of the safety of the water. It also does not give the user the ability 
     to customize the map elements with Arcade.</p>
   <h3>Conclusion</h3>
   <p>Since the solution does not have a drop-down menu, indicators, or the ability to customize the map elements using Arcade, it did not meet the needs of the project.</p>
@@ -124,7 +127,7 @@
 <div class="main">
   <h2>ArcGIS Dashboards</h2>
   <p>
-    Esri’s ArcGIS Dashboards is another configurable technology that can be used to build web apps without needing to write code. They are designed to convey data using an interactive interface and custom visualizations. 
+    Esri’s ArcGIS Dashboards is another configurable solution that can be used to build web apps without writing code, and they are able to display multiple datasets and statistics at once using an interactive interface and custom visualizations. 
     Dashboards can help organizations make decisions or inform the public by showing trends in data, or monitoring the status of a particular attribute in real time. Some of their key features include indicators, graphs, and charts, all of which can be customized using Arcade.
   </p>
   <h3>Process</h3>
@@ -133,11 +136,12 @@
     To create an interactive chart, go to Layout > Add element > Serial chart and under “Categories from”, select “Add field” to add all of the desired variables. Under “Statistic”, select “Average”. To make the graph responsive to changes to the map extent, 
     hover over the map and go into the settings. Under “Map actions”, go to “Filter” and select the chart of interest.
   </p>
+  <p>Results:</p>
   <img src=dashboard-method-1.jpg alt="Dashboard charts" class="large-img" width="800px">
 
   <h4>Indicators</h4>
   <p>
-    To customize an indicator, go to the settings and under Data > Statistic, select Average. Under Field, select the variable of interest. In this case, CHLORIDE. Enter the following code:
+    To customize an indicator, go into the settings, and under Data > Statistic, select the statistic of interest. For this example, the average concentration of chloride was used. Enter the following code:
   </p>
   <pre>
     <code>
@@ -170,14 +174,14 @@
 
   <p>
     The indicator should now turn red when the data points have an average of >=250 mg/L, orange at >= 50mg/L, and green at >= 0 mg/L. The text will also change to High, Medium, and Low, respectively. 
-    Also ensure that the indicators change depending on the map extent by entering the map’s settings, going to “Map actions” > “Filter”, and selecting the chart of interest. 
+    Ensure that the indicators change depending on the map extent by going into the map’s settings, selecting “Map actions” > “Filter”, and selecting the indicator. 
   </p>
 
   <img src=dashboard-method-2.jpg alt="Dashboard indicators" class="large-img" width="800px">
 
   <h3>Conclusion</h3>
   <p>
-    Overall, Esri’s ArcGIS Online Dashboards is a more suitable solution due to its ability to include drop-down menus, indicators, and the ability to customize the map elements using Arcade.
+    Overall, Esri’s ArcGIS Online Dashboards is a more suitable Esri solution due to its ability to include drop-down menus, indicators, and the ability to customize the map elements using Arcade.
   </p>
 </div>
 
