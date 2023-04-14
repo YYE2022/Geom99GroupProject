@@ -137,5 +137,7 @@ ul {
   border: black;
   border-style: solid;
   border-width: 2px;
+  min-width: 400px;
+  max-width: 65%;
 }
 
