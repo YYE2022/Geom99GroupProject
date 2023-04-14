@@ -139,5 +139,7 @@ ul {
   border-width: 2px;
   max-height: 100%;
   max-width: 100%;
+  height: auto;
+  width: auto;
 }
 
